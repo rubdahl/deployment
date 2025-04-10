@@ -1,7 +1,7 @@
 # Install base requirement for the app.
 
 FROM node:18
-WORKDIR /
+WORKDIR /taskApp
 COPY package*.json ./
 RUN npm install
 COPY . .
